@@ -154,7 +154,7 @@
 
             <ImageView
                 style="@style/image_view"
-                android:src="@drawable/clans" />
+                android:src="@drawable/family" />
 
             <TextView
                 style="@style/text_view"
@@ -177,18 +177,33 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/men_education"
+            android:id="@+id/urathi_wa_mugo"
             style="@style/relative_view"
             android:layout_below="@+id/family_names"
             >
 
             <ImageView
                 style="@style/image_view"
-                android:src="@drawable/nyumba" />
+                android:src="@drawable/mugo" />
 
             <TextView
                 style="@style/text_view"
                 android:text="Urathi wa Mugo" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/mitugo_ya_gikuyu"
+            style="@style/relative_view"
+            android:layout_below="@+id/thimo"
+            android:layout_toRightOf="@+id/urathi_wa_mugo"
+            >
+
+            <ImageView
+                style="@style/image_view"
+                android:src="@drawable/mugo" />
+
+            <TextView
+                style="@style/text_view"
+                android:text="Mitugo ya gikuyu" />
         </RelativeLayout>
 
     </RelativeLayout>

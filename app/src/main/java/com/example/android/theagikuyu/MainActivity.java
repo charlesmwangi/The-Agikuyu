@@ -4,6 +4,8 @@ package com.example.android.theagikuyu;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.example.android.theagikuyu.Marriage.MarriageActivity;
@@ -14,7 +16,7 @@ import com.example.android.theagikuyu.ngwiko.NgwikoActivity;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     View origin, clans, greetings, calendar, migiro,
             stages, second_birth, nyumba, ngwiko,
-            uhikania, family_names, thimo, education;
+            uhikania, family_names, thimo, urathi, unduire;
     Intent i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,8 +60,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         thimo = findViewById(R.id.thimo);
         thimo.setOnClickListener(this);
 
-        education = findViewById(R.id.men_education);
-        education.setOnClickListener(this);
+        urathi = findViewById(R.id.urathi_wa_mugo);
+        urathi.setOnClickListener(this);
+
+        urathi = findViewById(R.id.mitugo_ya_gikuyu);
+        urathi.setOnClickListener(this);
+
     }
     // Implement the OnClickListener callback
     public void onClick(View v) {
@@ -113,10 +119,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i = new Intent(this,ThimoActivity.class);
                 startActivity(i);
                 break;
-            case R.id.men_education:
+            case R.id.urathi_wa_mugo:
                 i = new Intent(this, UrathiWaMugoActivity.class);
                 startActivity(i);
                 break;
+            case R.id.mitugo_ya_gikuyu:
+                i = new Intent(this, MitugoActivity.class);
+                startActivity(i);
+                break;
         }
+
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mymenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // handle button activities
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.mybutton) {
+            // do something here
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
