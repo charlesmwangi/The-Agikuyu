@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mybutton"
+        android:enabled="true"
+        android:icon="@drawable/mymenu"
+        android:title="Settings"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

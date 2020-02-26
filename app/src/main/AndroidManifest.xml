@@ -9,124 +9,124 @@ package="com.example.android.theagikuyu">
     android:roundIcon="@mipmap/turi"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name=".MainActivity">
+    <activity android:name=".view.MainActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-    <activity android:name=".OriginActivity"
+    <activity android:name=".view.OriginActivity"
         android:label="@string/kihumo_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".migiro.MigiroActivity"
+    <activity android:name=".view.migiro.MigiroActivity"
         android:label="@string/migiro_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".CalendarActivity"
+    <activity android:name=".view.CalendarActivity"
         android:label="@string/calendar_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".ClansActivity"
+    <activity android:name=".view.ClansActivity"
         android:label="@string/clans_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".GreetingsActivity"
+    <activity android:name=".view.GreetingsActivity"
         android:label="@string/ngeithi_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".Stages.StagesActivity"
+    <activity android:name=".view.Stages.StagesActivity"
         android:label="@string/stages_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".SecondBirthActivity"
+    <activity android:name=".view.SecondBirthActivity"
         android:label="@string/secondbirth_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".NyumbaActivity"
+    <activity android:name=".view.NyumbaActivity"
         android:label="@string/nyumba_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".ngwiko.NgwikoActivity"
+    <activity android:name=".view.ngwiko.NgwikoActivity"
         android:label="@string/ngwiko_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".Marriage.MarriageActivity"
+    <activity android:name=".view.Marriage.MarriageActivity"
         android:label="@string/uhikania_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".FamilyNamesActivity"
+    <activity android:name=".view.FamilyNamesActivity"
         android:label="@string/names_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".ThimoActivity"
+    <activity android:name=".view.ThimoActivity"
         android:label="@string/thimo_label"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".UrathiWaMugoActivity"
+    <activity android:name=".view.UrathiWaMugoActivity"
         android:label="@string/urathi_wa_mugo"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
-    <activity android:name=".MitugoActivity"
+    <activity android:name=".view.MitugoActivity"
         android:label="@string/mitugo"
-        android:parentActivityName=".MainActivity">
+        android:parentActivityName=".view.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
+            android:value=".view.MainActivity"/>
     </activity>
 </application>
 
